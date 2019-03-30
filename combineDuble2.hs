@@ -1,5 +1,6 @@
 
---Input is like :"aabbcdaaddeffg"
+--Input is like : combineDuble  "aabbcdaaddeffg"
+-- combineDuble is function with input string.
 -- Output is : ["aa","bb","c","d","aa","dd","e","ff","g"]
 removeduble :: [Char]->[Char]
 removeduble [] = []
